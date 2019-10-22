@@ -8,6 +8,6 @@ const breedDetailsFromFile = function(breed, callback) {
     if (!error) callback(data);
     else callback(undefined);
   });
-}
+};
 
 module.exports = breedDetailsFromFile;
